@@ -1,0 +1,70 @@
+[
+  {
+    "ContainingType": "ASP.NET_Web_API_CRUD_Operation_Using_SQL_Server_Stored_Procedures.Controllers.ValuesController",
+    "Method": "GetEmpLists",
+    "RelativePath": "api/Values",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ASP.NET_Web_API_CRUD_Operation_Using_SQL_Server_Stored_Procedures.Model.EmpList, ASP.NET Web API CRUD Operation Using SQL Server Stored Procedures, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ASP.NET_Web_API_CRUD_Operation_Using_SQL_Server_Stored_Procedures.Controllers.ValuesController",
+    "Method": "postvalues",
+    "RelativePath": "api/Values",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empList",
+        "Type": "ASP.NET_Web_API_CRUD_Operation_Using_SQL_Server_Stored_Procedures.Model.EmpList",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ASP.NET_Web_API_CRUD_Operation_Using_SQL_Server_Stored_Procedures.Controllers.ValuesController",
+    "Method": "GetbyID",
+    "RelativePath": "api/Values/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ASP.NET_Web_API_CRUD_Operation_Using_SQL_Server_Stored_Procedures.Model.EmpList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

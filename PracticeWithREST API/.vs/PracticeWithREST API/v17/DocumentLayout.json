@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\PracticeWithREST API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1BDF0BC-F584-4F17-8A9D-AFC23BC13B35}|PracticeWithREST API\\PracticeWithREST API.csproj|c:\\users\\mihir\\onedrive\\desktop\\c#\\day 2 with(c#)\\practicewithrest api\\practicewithrest api\\practicewithrest api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{D1BDF0BC-F584-4F17-8A9D-AFC23BC13B35}|PracticeWithREST API\\PracticeWithREST API.csproj|solutionrelative:practicewithrest api\\practicewithrest api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1BDF0BC-F584-4F17-8A9D-AFC23BC13B35}|PracticeWithREST API\\PracticeWithREST API.csproj|c:\\users\\mihir\\onedrive\\desktop\\c#\\day 2 with(c#)\\practicewithrest api\\practicewithrest api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1BDF0BC-F584-4F17-8A9D-AFC23BC13B35}|PracticeWithREST API\\PracticeWithREST API.csproj|solutionrelative:practicewithrest api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PracticeWithREST API",
+              "DocumentMoniker": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\PracticeWithREST API\\PracticeWithREST API\\PracticeWithREST API.csproj",
+              "RelativeDocumentMoniker": "PracticeWithREST API\\PracticeWithREST API.csproj",
+              "ToolTip": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\PracticeWithREST API\\PracticeWithREST API\\PracticeWithREST API.csproj",
+              "RelativeToolTip": "PracticeWithREST API\\PracticeWithREST API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-25T06:24:19.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\PracticeWithREST API\\PracticeWithREST API\\Program.cs",
+              "RelativeDocumentMoniker": "PracticeWithREST API\\Program.cs",
+              "ToolTip": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\PracticeWithREST API\\PracticeWithREST API\\Program.cs",
+              "RelativeToolTip": "PracticeWithREST API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T06:23:07.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

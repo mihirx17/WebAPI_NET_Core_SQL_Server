@@ -1,0 +1,35 @@
+2024-02-28 16:18:00.040 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - null null
+2024-02-28 16:18:00.051 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.1962ms
+2024-02-28 16:18:05.049 +05:30 [INF] Now listening on: https://localhost:7042
+2024-02-28 16:18:05.077 +05:30 [INF] Now listening on: http://localhost:5236
+2024-02-28 16:18:05.136 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-28 16:18:05.137 +05:30 [INF] Hosting environment: Development
+2024-02-28 16:18:05.137 +05:30 [INF] Content root path: C:\Users\mihir\OneDrive\Desktop\C#\Day 2 with(C#)\Advance SQL SERVER with API\Advance SQL SERVER with API
+2024-02-28 16:18:05.691 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/index.html - null null
+2024-02-28 16:18:05.817 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/index.html - 200 null text/html;charset=utf-8 129.5946ms
+2024-02-28 16:18:05.820 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/_vs/browserLink - null null
+2024-02-28 16:18:05.820 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-28 16:18:05.826 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 6.0063ms
+2024-02-28 16:18:05.857 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.9848ms
+2024-02-28 16:18:05.906 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - null null
+2024-02-28 16:18:06.027 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 120.7671ms
+2024-02-28 16:18:10.252 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/api/Students - null null
+2024-02-28 16:18:10.258 +05:30 [INF] Executing endpoint 'Advance_SQL_SERVER_with_API.Controllers.StudentsController.Getstudents (Advance SQL SERVER with API)'
+2024-02-28 16:18:10.270 +05:30 [INF] Executed endpoint 'Advance_SQL_SERVER_with_API.Controllers.StudentsController.Getstudents (Advance SQL SERVER with API)'
+2024-02-28 16:18:10.273 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Advance_SQL_SERVER_with_API.Controllers.StudentsController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-28 16:18:10.296 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/api/Students - 500 null text/plain; charset=utf-8 44.875ms

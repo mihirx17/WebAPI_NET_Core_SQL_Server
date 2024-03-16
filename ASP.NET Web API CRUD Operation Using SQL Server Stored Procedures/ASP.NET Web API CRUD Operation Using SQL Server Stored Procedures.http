@@ -1,0 +1,6 @@
+@ASP.NET_Web_API_CRUD_Operation_Using_SQL_Server_Stored_Procedures_HostAddress = http://localhost:5121
+
+GET {{ASP.NET_Web_API_CRUD_Operation_Using_SQL_Server_Stored_Procedures_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,78 @@
+2024-02-28 16:26:32.436 +05:30 [INF] Now listening on: https://localhost:7042
+2024-02-28 16:26:32.471 +05:30 [INF] Now listening on: http://localhost:5236
+2024-02-28 16:26:32.552 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-28 16:26:32.553 +05:30 [INF] Hosting environment: Development
+2024-02-28 16:26:32.553 +05:30 [INF] Content root path: C:\Users\mihir\OneDrive\Desktop\C#\Day 2 with(C#)\Advance SQL SERVER with API\Advance SQL SERVER with API
+2024-02-28 16:26:33.706 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/index.html - null null
+2024-02-28 16:26:33.863 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/index.html - 200 null text/html;charset=utf-8 160.4694ms
+2024-02-28 16:26:33.868 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/_vs/browserLink - null null
+2024-02-28 16:26:33.868 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-28 16:26:33.873 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 5.1946ms
+2024-02-28 16:26:33.896 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.4806ms
+2024-02-28 16:26:33.948 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - null null
+2024-02-28 16:26:33.956 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Students" for actions - Advance_SQL_SERVER_with_API.Controllers.StudentsController.Getstudents (Advance SQL SERVER with API),Advance_SQL_SERVER_with_API.Controllers.StudentsController.PostStudent (Advance SQL SERVER with API),Advance_SQL_SERVER_with_API.Controllers.StudentsController.DeleteStudent (Advance SQL SERVER with API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-28 16:26:33.982 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 34.3803ms
+2024-02-28 16:26:38.024 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/index.html - null null
+2024-02-28 16:26:38.034 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/index.html - 200 null text/html;charset=utf-8 10.0968ms
+2024-02-28 16:26:38.042 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-28 16:26:38.042 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/_vs/browserLink - null null
+2024-02-28 16:26:38.043 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 0.9863ms
+2024-02-28 16:26:38.059 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.8292ms
+2024-02-28 16:26:38.080 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - null null
+2024-02-28 16:26:38.081 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Students" for actions - Advance_SQL_SERVER_with_API.Controllers.StudentsController.Getstudents (Advance SQL SERVER with API),Advance_SQL_SERVER_with_API.Controllers.StudentsController.PostStudent (Advance SQL SERVER with API),Advance_SQL_SERVER_with_API.Controllers.StudentsController.DeleteStudent (Advance SQL SERVER with API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-28 16:26:38.083 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 2.7947ms
+2024-02-28 16:26:47.022 +05:30 [INF] Now listening on: https://localhost:7042
+2024-02-28 16:26:47.040 +05:30 [INF] Now listening on: http://localhost:5236
+2024-02-28 16:26:47.084 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-28 16:26:47.084 +05:30 [INF] Hosting environment: Development
+2024-02-28 16:26:47.084 +05:30 [INF] Content root path: C:\Users\mihir\OneDrive\Desktop\C#\Day 2 with(C#)\Advance SQL SERVER with API\Advance SQL SERVER with API
+2024-02-28 16:26:47.332 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/index.html - null null
+2024-02-28 16:26:47.502 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/index.html - 200 null text/html;charset=utf-8 173.9139ms
+2024-02-28 16:26:47.513 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-28 16:26:47.513 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/_vs/browserLink - null null
+2024-02-28 16:26:47.525 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 12.7068ms
+2024-02-28 16:26:47.553 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.0773ms
+2024-02-28 16:26:47.609 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - null null
+2024-02-28 16:26:47.631 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Students" for actions - Advance_SQL_SERVER_with_API.Controllers.StudentsController.Getstudents (Advance SQL SERVER with API),Advance_SQL_SERVER_with_API.Controllers.StudentsController.PostStudent (Advance SQL SERVER with API),Advance_SQL_SERVER_with_API.Controllers.StudentsController.DeleteStudent (Advance SQL SERVER with API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-28 16:26:47.670 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 61.0821ms
+2024-02-28 16:26:56.753 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/index.html - null null
+2024-02-28 16:26:56.768 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/index.html - 200 null text/html;charset=utf-8 14.9937ms
+2024-02-28 16:26:56.776 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/_vs/browserLink - null null
+2024-02-28 16:26:56.777 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-28 16:26:56.781 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 4.1122ms
+2024-02-28 16:26:56.794 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.1337ms
+2024-02-28 16:26:56.823 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - null null
+2024-02-28 16:26:56.825 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Students" for actions - Advance_SQL_SERVER_with_API.Controllers.StudentsController.Getstudents (Advance SQL SERVER with API),Advance_SQL_SERVER_with_API.Controllers.StudentsController.PostStudent (Advance SQL SERVER with API),Advance_SQL_SERVER_with_API.Controllers.StudentsController.DeleteStudent (Advance SQL SERVER with API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-28 16:26:56.825 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 3.2496ms

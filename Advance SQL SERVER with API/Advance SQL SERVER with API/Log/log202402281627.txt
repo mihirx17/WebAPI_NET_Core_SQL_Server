@@ -1,0 +1,75 @@
+2024-02-28 16:27:02.924 +05:30 [INF] Now listening on: https://localhost:7042
+2024-02-28 16:27:02.949 +05:30 [INF] Now listening on: http://localhost:5236
+2024-02-28 16:27:02.992 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-28 16:27:02.993 +05:30 [INF] Hosting environment: Development
+2024-02-28 16:27:02.993 +05:30 [INF] Content root path: C:\Users\mihir\OneDrive\Desktop\C#\Day 2 with(C#)\Advance SQL SERVER with API\Advance SQL SERVER with API
+2024-02-28 16:27:04.048 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/index.html - null null
+2024-02-28 16:27:04.194 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/index.html - 200 null text/html;charset=utf-8 148.1454ms
+2024-02-28 16:27:04.199 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/_vs/browserLink - null null
+2024-02-28 16:27:04.200 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-28 16:27:04.205 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 5.7676ms
+2024-02-28 16:27:04.227 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.3051ms
+2024-02-28 16:27:04.272 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - null null
+2024-02-28 16:27:04.280 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Students" for actions - Advance_SQL_SERVER_with_API.Controllers.StudentsController.Getstudents (Advance SQL SERVER with API),Advance_SQL_SERVER_with_API.Controllers.StudentsController.PostStudent (Advance SQL SERVER with API),Advance_SQL_SERVER_with_API.Controllers.StudentsController.DeleteStudent (Advance SQL SERVER with API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-28 16:27:04.363 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 91.2518ms
+2024-02-28 16:27:24.083 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/index.html - null null
+2024-02-28 16:27:24.096 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/index.html - 200 null text/html;charset=utf-8 13.4504ms
+2024-02-28 16:27:24.107 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/_vs/browserLink - null null
+2024-02-28 16:27:24.107 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-28 16:27:24.108 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 1.0172ms
+2024-02-28 16:27:24.123 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.9011ms
+2024-02-28 16:27:24.156 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - null null
+2024-02-28 16:27:24.189 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - Advance_SQL_SERVER_with_API.Controllers.StudentsController.PutStudent (Advance SQL SERVER with API). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-28 16:27:24.190 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 34.6956ms
+2024-02-28 16:27:29.452 +05:30 [INF] Now listening on: https://localhost:7042
+2024-02-28 16:27:29.477 +05:30 [INF] Now listening on: http://localhost:5236
+2024-02-28 16:27:29.514 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-28 16:27:29.514 +05:30 [INF] Hosting environment: Development
+2024-02-28 16:27:29.515 +05:30 [INF] Content root path: C:\Users\mihir\OneDrive\Desktop\C#\Day 2 with(C#)\Advance SQL SERVER with API\Advance SQL SERVER with API
+2024-02-28 16:27:30.335 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/index.html - null null
+2024-02-28 16:27:30.479 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/index.html - 200 null text/html;charset=utf-8 146.3166ms
+2024-02-28 16:27:30.485 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/_vs/browserLink - null null
+2024-02-28 16:27:30.485 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-28 16:27:30.490 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/_framework/aspnetcore-browser-refresh.js - 200 13790 application/javascript; charset=utf-8 6.3729ms
+2024-02-28 16:27:30.516 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.9434ms
+2024-02-28 16:27:30.557 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - null null
+2024-02-28 16:27:30.628 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 70.9367ms
+2024-02-28 16:27:38.956 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/api/Students - null null
+2024-02-28 16:27:38.961 +05:30 [INF] Executing endpoint 'Advance_SQL_SERVER_with_API.Controllers.StudentsController.Getstudents (Advance SQL SERVER with API)'
+2024-02-28 16:27:38.976 +05:30 [INF] Route matched with {action = "Getstudents", controller = "Students"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Advance_SQL_SERVER_with_API.Data.Student]]] Getstudents() on controller Advance_SQL_SERVER_with_API.Controllers.StudentsController (Advance SQL SERVER with API).
+2024-02-28 16:27:39.071 +05:30 [INF] Executed action Advance_SQL_SERVER_with_API.Controllers.StudentsController.Getstudents (Advance SQL SERVER with API) in 92.1725ms
+2024-02-28 16:27:39.071 +05:30 [INF] Executed endpoint 'Advance_SQL_SERVER_with_API.Controllers.StudentsController.Getstudents (Advance SQL SERVER with API)'
+2024-02-28 16:27:39.073 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'Advance_SQL_SERVER_with_API.Controllers.StudentsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-28 16:27:39.092 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/api/Students - 500 null text/plain; charset=utf-8 136.9002ms

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ASP.NET Web API CRUD Operation Using SQL Server Stored Procedures.props" />
+</Project>

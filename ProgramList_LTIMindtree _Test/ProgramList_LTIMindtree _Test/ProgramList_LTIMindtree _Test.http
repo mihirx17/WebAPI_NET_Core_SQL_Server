@@ -1,0 +1,6 @@
+@ProgramList_LTIMindtree__Test_HostAddress = http://localhost:5019
+
+GET {{ProgramList_LTIMindtree__Test_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

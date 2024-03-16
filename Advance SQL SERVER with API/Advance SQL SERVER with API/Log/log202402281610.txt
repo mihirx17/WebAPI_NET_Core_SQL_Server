@@ -1,0 +1,21 @@
+2024-02-28 16:10:45.833 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/api/Students - null null
+2024-02-28 16:10:45.840 +05:30 [INF] Executing endpoint 'Advance_SQL_SERVER_with_API.Controllers.StudentsController.Getstudents (Advance SQL SERVER with API)'
+2024-02-28 16:10:45.841 +05:30 [INF] Route matched with {action = "Getstudents", controller = "Students"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Advance_SQL_SERVER_with_API.Data.Student]]] Getstudents() on controller Advance_SQL_SERVER_with_API.Controllers.StudentsController (Advance SQL SERVER with API).
+2024-02-28 16:10:45.857 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[id], [s].[age], [s].[name]
+FROM [students] AS [s]
+2024-02-28 16:10:45.858 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Advance_SQL_SERVER_with_API.Data.Student, Advance SQL SERVER with API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-28 16:10:45.858 +05:30 [INF] Executed action Advance_SQL_SERVER_with_API.Controllers.StudentsController.Getstudents (Advance SQL SERVER with API) in 17.2496ms
+2024-02-28 16:10:45.858 +05:30 [INF] Executed endpoint 'Advance_SQL_SERVER_with_API.Controllers.StudentsController.Getstudents (Advance SQL SERVER with API)'
+2024-02-28 16:10:45.858 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/api/Students - 200 null application/json; charset=utf-8 25.8245ms
+2024-02-28 16:10:57.525 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7042/api/Students/1 - null null
+2024-02-28 16:10:57.526 +05:30 [INF] Executing endpoint 'Advance_SQL_SERVER_with_API.Controllers.StudentsController.GetStudent (Advance SQL SERVER with API)'
+2024-02-28 16:10:57.535 +05:30 [INF] Route matched with {action = "GetStudent", controller = "Students"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Advance_SQL_SERVER_with_API.Data.Student]] GetStudent(Int32) on controller Advance_SQL_SERVER_with_API.Controllers.StudentsController (Advance SQL SERVER with API).
+2024-02-28 16:10:57.679 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[id], [s].[age], [s].[name]
+FROM [students] AS [s]
+WHERE [s].[id] = @__p_0
+2024-02-28 16:10:57.681 +05:30 [INF] Executing ObjectResult, writing value of type 'Advance_SQL_SERVER_with_API.Data.Student'.
+2024-02-28 16:10:57.681 +05:30 [INF] Executed action Advance_SQL_SERVER_with_API.Controllers.StudentsController.GetStudent (Advance SQL SERVER with API) in 145.7338ms
+2024-02-28 16:10:57.681 +05:30 [INF] Executed endpoint 'Advance_SQL_SERVER_with_API.Controllers.StudentsController.GetStudent (Advance SQL SERVER with API)'
+2024-02-28 16:10:57.681 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7042/api/Students/1 - 200 null application/json; charset=utf-8 156.248ms

@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "Stored_Procedures_.Net.Controllers.ValuesController",
+    "Method": "Get",
+    "RelativePath": "api/Values/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Advance_Concept.Models.ProgramList",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

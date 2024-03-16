@@ -1,0 +1,6 @@
+@Advance_Concept_HostAddress = http://localhost:5143
+
+GET {{Advance_Concept_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

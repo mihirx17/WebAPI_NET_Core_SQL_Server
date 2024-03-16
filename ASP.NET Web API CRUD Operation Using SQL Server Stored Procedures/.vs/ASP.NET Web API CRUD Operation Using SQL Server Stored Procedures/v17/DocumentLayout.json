@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\WebAPi_NETcore\\ASP.NET Web API CRUD Operation Using SQL Server Stored Procedures\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A41C3726-FB8A-49AB-82B8-8064B1ADEC81}|ASP.NET Web API CRUD Operation Using SQL Server Stored Procedures.csproj|c:\\users\\mihir\\onedrive\\desktop\\c#\\webapi_netcore\\asp.net web api crud operation using sql server stored procedures\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41C3726-FB8A-49AB-82B8-8064B1ADEC81}|ASP.NET Web API CRUD Operation Using SQL Server Stored Procedures.csproj|solutionrelative:controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41C3726-FB8A-49AB-82B8-8064B1ADEC81}|ASP.NET Web API CRUD Operation Using SQL Server Stored Procedures.csproj|c:\\users\\mihir\\onedrive\\desktop\\c#\\webapi_netcore\\asp.net web api crud operation using sql server stored procedures\\model\\emplist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41C3726-FB8A-49AB-82B8-8064B1ADEC81}|ASP.NET Web API CRUD Operation Using SQL Server Stored Procedures.csproj|solutionrelative:model\\emplist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41C3726-FB8A-49AB-82B8-8064B1ADEC81}|ASP.NET Web API CRUD Operation Using SQL Server Stored Procedures.csproj|c:\\users\\mihir\\onedrive\\desktop\\c#\\webapi_netcore\\asp.net web api crud operation using sql server stored procedures\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A41C3726-FB8A-49AB-82B8-8064B1ADEC81}|ASP.NET Web API CRUD Operation Using SQL Server Stored Procedures.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41C3726-FB8A-49AB-82B8-8064B1ADEC81}|ASP.NET Web API CRUD Operation Using SQL Server Stored Procedures.csproj|c:\\users\\mihir\\onedrive\\desktop\\c#\\webapi_netcore\\asp.net web api crud operation using sql server stored procedures\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41C3726-FB8A-49AB-82B8-8064B1ADEC81}|ASP.NET Web API CRUD Operation Using SQL Server Stored Procedures.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmpList.cs",
+              "DocumentMoniker": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\WebAPi_NETcore\\ASP.NET Web API CRUD Operation Using SQL Server Stored Procedures\\Model\\EmpList.cs",
+              "RelativeDocumentMoniker": "Model\\EmpList.cs",
+              "ToolTip": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\WebAPi_NETcore\\ASP.NET Web API CRUD Operation Using SQL Server Stored Procedures\\Model\\EmpList.cs",
+              "RelativeToolTip": "Model\\EmpList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T12:09:20.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\WebAPi_NETcore\\ASP.NET Web API CRUD Operation Using SQL Server Stored Procedures\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\WebAPi_NETcore\\ASP.NET Web API CRUD Operation Using SQL Server Stored Procedures\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "Controllers\\ValuesController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAkwBcAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T12:02:00.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\WebAPi_NETcore\\ASP.NET Web API CRUD Operation Using SQL Server Stored Procedures\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\WebAPi_NETcore\\ASP.NET Web API CRUD Operation Using SQL Server Stored Procedures\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-12T11:52:37.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\WebAPi_NETcore\\ASP.NET Web API CRUD Operation Using SQL Server Stored Procedures\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\WebAPi_NETcore\\ASP.NET Web API CRUD Operation Using SQL Server Stored Procedures\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T11:52:33.482Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

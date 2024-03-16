@@ -1,0 +1,222 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6869E34C-DBCF-45E9-ACAC-44AA1137641E}|Advance SQL SERVER with API\\Advance SQL SERVER with API.csproj|c:\\users\\mihir\\onedrive\\desktop\\c#\\day 2 with(c#)\\advance sql server with api\\advance sql server with api\\data\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6869E34C-DBCF-45E9-ACAC-44AA1137641E}|Advance SQL SERVER with API\\Advance SQL SERVER with API.csproj|solutionrelative:advance sql server with api\\data\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6869E34C-DBCF-45E9-ACAC-44AA1137641E}|Advance SQL SERVER with API\\Advance SQL SERVER with API.csproj|c:\\users\\mihir\\onedrive\\desktop\\c#\\day 2 with(c#)\\advance sql server with api\\advance sql server with api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6869E34C-DBCF-45E9-ACAC-44AA1137641E}|Advance SQL SERVER with API\\Advance SQL SERVER with API.csproj|solutionrelative:advance sql server with api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6869E34C-DBCF-45E9-ACAC-44AA1137641E}|Advance SQL SERVER with API\\Advance SQL SERVER with API.csproj|c:\\users\\mihir\\onedrive\\desktop\\c#\\day 2 with(c#)\\advance sql server with api\\advance sql server with api\\data\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6869E34C-DBCF-45E9-ACAC-44AA1137641E}|Advance SQL SERVER with API\\Advance SQL SERVER with API.csproj|solutionrelative:advance sql server with api\\data\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6869E34C-DBCF-45E9-ACAC-44AA1137641E}|Advance SQL SERVER with API\\Advance SQL SERVER with API.csproj|c:\\users\\mihir\\onedrive\\desktop\\c#\\day 2 with(c#)\\advance sql server with api\\advance sql server with api\\log\\log202402281609.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6869E34C-DBCF-45E9-ACAC-44AA1137641E}|Advance SQL SERVER with API\\Advance SQL SERVER with API.csproj|solutionrelative:advance sql server with api\\log\\log202402281609.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6869E34C-DBCF-45E9-ACAC-44AA1137641E}|Advance SQL SERVER with API\\Advance SQL SERVER with API.csproj|c:\\users\\mihir\\onedrive\\desktop\\c#\\day 2 with(c#)\\advance sql server with api\\advance sql server with api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6869E34C-DBCF-45E9-ACAC-44AA1137641E}|Advance SQL SERVER with API\\Advance SQL SERVER with API.csproj|solutionrelative:advance sql server with api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\Advance SQL SERVER with API\\Migrations\\20240228173631_AddDataToStudentsTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Advance SQL SERVER with API\\Migrations\\20240228173631_AddDataToStudentsTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\Advance SQL SERVER with API\\Migrations\\20240228173226_InitialSchoolDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Advance SQL SERVER with API\\Migrations\\20240228173226_InitialSchoolDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6869E34C-DBCF-45E9-ACAC-44AA1137641E}|Advance SQL SERVER with API\\Advance SQL SERVER with API.csproj|c:\\users\\mihir\\onedrive\\desktop\\c#\\day 2 with(c#)\\advance sql server with api\\advance sql server with api\\log\\log202402281610.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6869E34C-DBCF-45E9-ACAC-44AA1137641E}|Advance SQL SERVER with API\\Advance SQL SERVER with API.csproj|solutionrelative:advance sql server with api\\log\\log202402281610.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6869E34C-DBCF-45E9-ACAC-44AA1137641E}|Advance SQL SERVER with API\\Advance SQL SERVER with API.csproj|c:\\users\\mihir\\onedrive\\desktop\\c#\\day 2 with(c#)\\advance sql server with api\\advance sql server with api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6869E34C-DBCF-45E9-ACAC-44AA1137641E}|Advance SQL SERVER with API\\Advance SQL SERVER with API.csproj|solutionrelative:advance sql server with api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\Advance SQL SERVER with API\\Migrations\\20240228065205_InitialDBSetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Advance SQL SERVER with API\\Migrations\\20240228065205_InitialDBSetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6869E34C-DBCF-45E9-ACAC-44AA1137641E}|Advance SQL SERVER with API\\Advance SQL SERVER with API.csproj|c:\\users\\mihir\\onedrive\\desktop\\c#\\day 2 with(c#)\\advance sql server with api\\advance sql server with api\\migrations\\20240228173820_adddatatostudentstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6869E34C-DBCF-45E9-ACAC-44AA1137641E}|Advance SQL SERVER with API\\Advance SQL SERVER with API.csproj|solutionrelative:advance sql server with api\\migrations\\20240228173820_adddatatostudentstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6869E34C-DBCF-45E9-ACAC-44AA1137641E}|Advance SQL SERVER with API\\Advance SQL SERVER with API.csproj|c:\\users\\mihir\\onedrive\\desktop\\c#\\day 2 with(c#)\\advance sql server with api\\advance sql server with api\\migrations\\20240228173802_initialschooldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6869E34C-DBCF-45E9-ACAC-44AA1137641E}|Advance SQL SERVER with API\\Advance SQL SERVER with API.csproj|solutionrelative:advance sql server with api\\migrations\\20240228173802_initialschooldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240228173820_AddDataToStudentsTable.cs",
+              "DocumentMoniker": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\Advance SQL SERVER with API\\Migrations\\20240228173820_AddDataToStudentsTable.cs",
+              "RelativeDocumentMoniker": "Advance SQL SERVER with API\\Migrations\\20240228173820_AddDataToStudentsTable.cs",
+              "ToolTip": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\Advance SQL SERVER with API\\Migrations\\20240228173820_AddDataToStudentsTable.cs",
+              "RelativeToolTip": "Advance SQL SERVER with API\\Migrations\\20240228173820_AddDataToStudentsTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T17:38:20.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20240228173802_InitialSchoolDB.cs",
+              "DocumentMoniker": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\Advance SQL SERVER with API\\Migrations\\20240228173802_InitialSchoolDB.cs",
+              "RelativeDocumentMoniker": "Advance SQL SERVER with API\\Migrations\\20240228173802_InitialSchoolDB.cs",
+              "ToolTip": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\Advance SQL SERVER with API\\Migrations\\20240228173802_InitialSchoolDB.cs",
+              "RelativeToolTip": "Advance SQL SERVER with API\\Migrations\\20240228173802_InitialSchoolDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T17:38:02.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20240228173631_AddDataToStudentsTable.cs",
+              "DocumentMoniker": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\Advance SQL SERVER with API\\Migrations\\20240228173631_AddDataToStudentsTable.cs",
+              "RelativeDocumentMoniker": "Advance SQL SERVER with API\\Migrations\\20240228173631_AddDataToStudentsTable.cs",
+              "ToolTip": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\Advance SQL SERVER with API\\Migrations\\20240228173631_AddDataToStudentsTable.cs",
+              "RelativeToolTip": "Advance SQL SERVER with API\\Migrations\\20240228173631_AddDataToStudentsTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T17:36:31.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240228173226_InitialSchoolDB.cs",
+              "DocumentMoniker": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\Advance SQL SERVER with API\\Migrations\\20240228173226_InitialSchoolDB.cs",
+              "RelativeDocumentMoniker": "Advance SQL SERVER with API\\Migrations\\20240228173226_InitialSchoolDB.cs",
+              "ToolTip": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\Advance SQL SERVER with API\\Migrations\\20240228173226_InitialSchoolDB.cs",
+              "RelativeToolTip": "Advance SQL SERVER with API\\Migrations\\20240228173226_InitialSchoolDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T17:32:26.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "log202402281610.txt",
+              "DocumentMoniker": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\Advance SQL SERVER with API\\Log\\log202402281610.txt",
+              "RelativeDocumentMoniker": "Advance SQL SERVER with API\\Log\\log202402281610.txt",
+              "ToolTip": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\Advance SQL SERVER with API\\Log\\log202402281610.txt",
+              "RelativeToolTip": "Advance SQL SERVER with API\\Log\\log202402281610.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-02-28T15:54:38.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "log202402281609.txt",
+              "DocumentMoniker": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\Advance SQL SERVER with API\\Log\\log202402281609.txt",
+              "RelativeDocumentMoniker": "Advance SQL SERVER with API\\Log\\log202402281609.txt",
+              "ToolTip": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\Advance SQL SERVER with API\\Log\\log202402281609.txt",
+              "RelativeToolTip": "Advance SQL SERVER with API\\Log\\log202402281609.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-02-28T10:41:03.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\Advance SQL SERVER with API\\appsettings.json",
+              "RelativeDocumentMoniker": "Advance SQL SERVER with API\\appsettings.json",
+              "ToolTip": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\Advance SQL SERVER with API\\appsettings.json",
+              "RelativeToolTip": "Advance SQL SERVER with API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-28T10:11:39.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\Advance SQL SERVER with API\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Advance SQL SERVER with API\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\Advance SQL SERVER with API\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Advance SQL SERVER with API\\Controllers\\StudentsController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAzwJQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T09:54:37.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240228065205_InitialDBSetup.cs",
+              "DocumentMoniker": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\Advance SQL SERVER with API\\Migrations\\20240228065205_InitialDBSetup.cs",
+              "RelativeDocumentMoniker": "Advance SQL SERVER with API\\Migrations\\20240228065205_InitialDBSetup.cs",
+              "ToolTip": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\Advance SQL SERVER with API\\Migrations\\20240228065205_InitialDBSetup.cs",
+              "RelativeToolTip": "Advance SQL SERVER with API\\Migrations\\20240228065205_InitialDBSetup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T06:52:05.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentDBcontext.cs",
+              "DocumentMoniker": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\Advance SQL SERVER with API\\Data\\StudentDBcontext.cs",
+              "RelativeDocumentMoniker": "Advance SQL SERVER with API\\Data\\StudentDBcontext.cs",
+              "ToolTip": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\Advance SQL SERVER with API\\Data\\StudentDBcontext.cs",
+              "RelativeToolTip": "Advance SQL SERVER with API\\Data\\StudentDBcontext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T06:24:08.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\Advance SQL SERVER with API\\Program.cs",
+              "RelativeDocumentMoniker": "Advance SQL SERVER with API\\Program.cs",
+              "ToolTip": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\Advance SQL SERVER with API\\Program.cs",
+              "RelativeToolTip": "Advance SQL SERVER with API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T06:22:40.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\Advance SQL SERVER with API\\Data\\Student.cs",
+              "RelativeDocumentMoniker": "Advance SQL SERVER with API\\Data\\Student.cs",
+              "ToolTip": "C:\\Users\\mihir\\OneDrive\\Desktop\\C#\\Day 2 with(C#)\\Advance SQL SERVER with API\\Advance SQL SERVER with API\\Data\\Student.cs",
+              "RelativeToolTip": "Advance SQL SERVER with API\\Data\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T06:20:04.781Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
